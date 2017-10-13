@@ -1,0 +1,82 @@
+body {
+    background: #A9A9A9;
+    font-size: 150%;
+    margin: 4%;
+}
+
+h1 {
+    font-size: 150%;
+    color: #ffffff;
+}
+
+header {
+    background: #1e5799;
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+    text-align: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    display: inline-block;
+    background: #ffffff;
+}
+
+h2 {
+    color: #666666;
+    background: #00ff00;
+    margin: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+details {
+    font-style: italic;
+}
+
+summary {
+    font-style: normal;
+}
+
+footer {
+    background: #1e5799;
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+    border-radius: 5px;
+}
+
+img {
+    width: 9%;
+}
+
+section {
+    width: 90%;
+    display: inline-table;
+    background-color: #666;
+    margin-left: 3%;
+    border-radius: 2%;
+}
+
+.half {
+    width: 45%;
+    margin-right: 2%;
+    display: inline-table;
+    float: left;
+}
+
+.whole {
+    clear: both;
+    margin-top: 2%;
+    margin-left: 5%;
+}

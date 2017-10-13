@@ -1,0 +1,179 @@
+body {
+    margin: 2%;
+    padding: 2%;
+    height: auto;
+}
+
+main {
+    height: auto;
+}
+
+header {
+    background: #727275 url('../images/soccer.jpg') no-repeat;
+    background-size: 100%;
+    padding: 4%;
+}
+
+nav {
+    width: 50%;
+    margin-left: -5%;
+}
+
+nav>a {
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    background: rgba(109, 227, 227, 0.5);
+    margin-left: 4%;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 4px;
+}
+
+
+/*nav>a:hover {
+    background: rgb(153, 149, 149);
+}*/
+
+nav>a:active {
+    background: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border: 3px black solid;
+    width: 20%;
+    margin-left: 40%;
+    padding: .5%;
+    font-size: 34px;
+}
+
+h2 {
+    color: #2B2E74;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 24px;
+}
+
+.link {
+    background-color: #727275;
+    color: #000000;
+    font-size: 26px;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.right {
+    border: 4px black solid;
+    width: 78%;
+    float: right;
+    margin: 5px;
+    margin-right: 0px;
+}
+
+section>p {
+    display: inline-table;
+    width: 40%;
+    margin-left: 2%;
+}
+
+
+/* Aside bar */
+
+.left {
+    width: 17%;
+    border: 4px black solid;
+    float: left;
+    margin: 5px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.left a img {
+    width: 100%;
+    border-radius: 5px;
+    opacity: .7;
+    transition-property: width, transform, opacity;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;
+}
+
+.left a img:hover {
+    width: 110%;
+    transform: rotate(360deg);
+    opacity: 1;
+}
+
+
+/*Table*/
+
+.teams {
+    margin: 5%;
+    margin-left: 10%;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+th {
+    background: #999595;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 3px solid #CCBBAE;
+    font-family: monospace;
+    font-size: 28px;
+}
+
+
+/*Center tablem text*/
+
+tr:nth-child(2)>td:last-child,
+tr:nth-child(2)>td:nth-child(2),
+tr:nth-child(3)>td:last-child,
+tr:nth-child(3)>td:nth-child(2),
+tr:nth-child(4)>td:last-child,
+tr:nth-child(4)>td:nth-child(2),
+tr:nth-child(5)>td:last-child,
+tr:nth-child(5)>td:nth-child(2),
+tr:nth-child(6)>td:last-child,
+tr:nth-child(6)>td:nth-child(2),
+tr:nth-child(7)>td:last-child,
+tr:nth-child(7)>td:nth-child(2),
+tr:nth-child(8)>td:last-child,
+tr:nth-child(8)>td:nth-child(2),
+tr:nth-child(9)>td:last-child,
+tr:nth-child(9)>td:nth-child(2),
+tr:nth-child(10)>td:last-child,
+tr:nth-child(10)>td:nth-child(2),
+tr:nth-child(11)>td:last-child,
+tr:nth-child(11)>td:nth-child(2) {
+    text-align: center;
+}
+
+td {
+    background: #FFFBEA;
+    padding: 10px;
+    font-family: monospace;
+    opacity: .6;
+}
+
+td:hover {
+    opacity: 1;
+}
+
+.right>p {
+    display: block!important;
+    margin-left: 28%;
+    font-family: monospace;
+}
+
+h2 {
+    text-align: center;
+    display: bloc !important;
+    font-family: monospace;
+    font-size: 40px;
+    width: 40%;
+    margin-left: 30%;
+}

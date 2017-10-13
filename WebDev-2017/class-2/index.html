@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="UTF-8" />
+      <title>CAMshots Home Page</title>
+	  <link href="css/camstyles.css" rel="stylesheet" type="text/css" />
+   </head>
+
+   <body>
+      <header>
+		  <!-- 3. Include the source of the image ('camshots.jpg') in the image tag
+		  	   below. Also provide alternate text so that the image will be
+			   described to users who are rely on a Web reader. -->
+		  <img src='images/camshots.jpg' usemap="logomap" />
+		  <!-- The map below creates clickable areas within the image -->
+		  <map name="logomap" >
+			  <area shape="circle" coords="82, 82, 80" href="index.html" title="Home"/>
+			  <area shape="rect" coords="235, 120, 310, 150" href="tips.html" 
+			      title="Tips" />
+			  <area shape="poly" coords="340, 120, 510, 120, 510, 150, 340, 150" 
+				  href="glossary.html" title="Glossary" />
+		  </map>
+      </header>
+	  <!-- 4. Although we have a clickable image we should still add a navigation 
+		   panel as well. Add a navigation division with an unordered list that 
+		   contains list items with hyperlinks to these 3 Web pages:
+					Home Page: "index.html" 
+					Tips: "tips.html" and
+					Glossary: "glossary.html"
+			Include a tooltip for each of these links.
+			
+			*** Make sure that you put this nav element between the header and 
+			the section.
+	   -->
+	   <nav>
+          <ul>
+			  <li>
+				  <a href="index.html">Home</a>
+			  </li>
+			  <li>
+				  <a href="tips.html">Tips</a>
+			  </li>
+			  <li>
+				  <a href="glossary.html">Glossary</a>
+			  </li>
+		  </ul>
+	  </nav>
+	  <!-- 5. Copy the header and nav divisions into the other two files ('tips.html'
+	  	   and 'glossary.html' ) so that the header and navigation panels are 
+		   identical on all 3 pages. -->
+      <section>
+		 <aside>
+			 <!-- 6. Convert the text 'Photo of the Month' within the aside to be a 
+			      level-one heading. -->
+			 <h1>Photo of the Month</h1>
+			 <figure>
+				<!-- 7. Include an image tag which displays the 'rainbow.png' picture
+				     in the page within the <figure> tag. Be sure to include alternate
+					 text which will be read to users who are rely on a Web reader.-->
+				<!-- put image here -->
+				<figcaption>
+                    <img src="images/rainbow.png" alt="Colorado Double Rainbow by Watts213">
+				</figcaption>
+			 </figure>
+			 <!-- 8. Convert the group of paragraphs within the aside to be an unordered
+				  list.-->
+				  <ul>
+                    <li>
+					  <p>Camera: Nikon D50</p>
+					</li>
+					<li>
+					  <p>F-stop: f/7.1</p>
+					</li>
+					<li>
+						<p>Exposure: 1/200 sec.</p>
+					</li>
+					<li>
+						<p>Focal Length: 18mm</p>
+					</li>
+					<li>
+						<p>Aperture: 3.6</p>
+					</li>
+					<li>
+						<p>Flash Mode: No flash</p>
+					</li>
+				  </ul>
+		 </aside>
+
+         <p>Welcome to CAMshots, a site for people passionate about 
+            digital photography. This site has grown out of decades 
+            of photographic experience. I offer advice for both 
+            beginners and advanced users. I hope you enjoy what you find, 
+            but please be considerate of the work it took to do all this. 
+            The entire site contents including all images and articles 
+            are copyrighted. Please honor my work and do not copy anything 
+            without permission. If you are interested in publishing any 
+            of my images or articles or using them in other ways, 
+            please contact me 
+            and we can discuss your needs. Happy Shooting!</p>
+         <p>&mdash; Gerry</p>
+
+	  </section>
+
+      <footer>
+         <address>
+            CAMshots &#8250;&#8250;&#8250; Advice and News from 
+            the World of Digital Photography
+         </address>
+      </footer>
+
+   </body>
+
+</html>
