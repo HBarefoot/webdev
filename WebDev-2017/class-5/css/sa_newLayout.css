@@ -1,3 +1,5 @@
+
+\
 /*
 Page layout styles
 */
@@ -68,7 +70,7 @@ nav li {
     border-right: 2px solid black;
     padding: 15px 20px;
 }
-
+ 
 nav li:last-of-type {
     border-right: none;
 }
