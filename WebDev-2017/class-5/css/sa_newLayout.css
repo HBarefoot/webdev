@@ -1,0 +1,87 @@
+/*
+Page layout styles
+*/
+
+/*
+    3. Modify the body layout so that the width of the page is
+    set to be 95% of the browser window. And that the page
+    will never exceed 1000px in width and be no less than 
+    800px in width. Center the body in the browser by 
+    applying equal margins on both the left and right.
+*/
+body {
+    margin: 0px auto;
+    padding: 0px;
+    width: 95%;
+    max-width: 1000px;
+    min-width: 800px;
+}
+
+header, footer {
+    margin: 0px auto;
+}
+
+/*
+    5. Modify the section so that it now only occupies 90%
+    of the width of it's parent element (the body) and so
+    that it is centered in the body.
+*/
+section {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/*
+    6. Create a rule that will be applied to all heading
+    within the section (h1-h6). This rule should push the
+    heading down the page until there are no elements to the
+    left or right of the heading.
+*/
+section h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+
+section img {
+    float:  right;
+    margin: 15px;
+}
+
+/*
+    7. Modify the navigation panel so that it is now a horizontal
+    layout rather than a vertical layout. It should no longer be
+    sized to fit to the left of the section, but should now be 
+    above it.
+
+    Create additional rules as needed to give the navigation panel
+    a more button-like appearance. (Hint: you may need to edit the
+    sa_styles.css file to complete this task.)
+*/
+nav {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid rgb(125, 186, 240);
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    border-right: 2px solid black;
+    padding: 15px 20px;
+}
+
+nav li:last-of-type {
+    border-right: none;
+}
+
+nav li:hover {
+    background-color: white;
+}
+
+nav li > a {
+    text-decoration: none;
+}
+
+address {
+    clear: both;
+    width: 100%;
+}
